@@ -79,4 +79,11 @@ digraph G {
 }
 ```
 
+digraph example {
+  A -> B;
+  B -> C;
+  C -> D;
+}
+
+
 This diagram illustrates the relationship between the user, Vagrant, Docker container, Terraform, and OpenStack.
