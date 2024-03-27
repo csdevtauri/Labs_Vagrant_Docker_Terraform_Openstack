@@ -15,7 +15,7 @@ graph LR
 A[User] --> B[Vagrant]
 B --> C[Docker Container]
 C --> D[Terraform]
-D --> E[OpenStack]
+D --> E[OpenStack on Public Cloud Infomaniak]
 ```
 
 ## Setup
