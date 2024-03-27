@@ -7,6 +7,17 @@ This guide will help you set up a Terraform environment within a Docker containe
 - Install Vagrant, VirtualBox, Terraform, Docker, and OpenStack CLI.
 - Download the OpenStack RC File.sh script from your Infomaniak project and source it before running the `terraform plan` command.
 
+
+## Diagram
+
+```mermaid
+graph LR
+A[User] --> B[Vagrant]
+B --> C[Docker Container]
+C --> D[Terraform]
+D --> E[OpenStack]
+```
+
 ## Setup
 
 1. Clone this repository to your local machine.
@@ -52,38 +63,7 @@ Please ensure your contributions adhere to the [Code of Conduct](CODE_OF_CONDUCT
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Diagram
 
-```mermaid
-graph LR
-A[User] --> B[Vagrant]
-B --> C[Docker Container]
-C --> D[Terraform]
-D --> E[OpenStack]
-```
-
-```dot
-digraph G {
-  rankdir=LR;
-  node [shape=box];
-  A [label="User"];
-  B [label="Vagrant"];
-  C [label="Docker Container"];
-  D [label="Terraform"];
-  E [label="OpenStack"];
-
-  A -> B;
-  B -> C;
-  C -> D;
-  D -> E;
-}
-```
-
-digraph example {
-  A -> B;
-  B -> C;
-  C -> D;
-}
 
 
 This diagram illustrates the relationship between the user, Vagrant, Docker container, Terraform, and OpenStack.
