@@ -67,3 +67,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 This diagram illustrates the relationship between the user, Vagrant, Docker container, Terraform, and OpenStack.
+
+Inspired by Xavki - https://gitlab.com/xavki/infrastructure-cloud-infomaniak
