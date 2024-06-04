@@ -10,4 +10,3 @@ Vagrant.configure("2") do |config|
   config.ssh.username = "root"
   config.ssh.password = "vagrant"
 end
-
